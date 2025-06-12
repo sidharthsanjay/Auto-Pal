@@ -37,17 +37,17 @@ visualization. It integrates with MongoDB and provides tools for:
      * Source & Property Type 
    * Allows manual navigation and validation for each property 
    * Logs changes to MongoDB and appends to updation_data.csv 
-  2. Validation Convertible Status 
-    * Shows a pie chart of convertible status values that are not yet updated 
-    * Pulls live data from MongoDB 
-  3. Validation Dashboard 
-    * Automatically loads filters passed from the Validation Tool 
-    * Visualizations: 
-      * Property type histogram 
-      * Bedroom box plot 
-      * Listing trends (line chart) 
-      * Bedroom vs postcode heatmap 
-  4. Engine Dashboard(engine.py) 
+ * 2.Validation Convertible Status 
+   * Shows a pie chart of convertible status values that are not yet updated 
+   * Pulls live data from MongoDB 
+ * 3.Validation Dashboard 
+   * Automatically loads filters passed from the Validation Tool 
+   * Visualizations: 
+     * Property type histogram 
+     * Bedroom box plot 
+     * Listing trends (line chart) 
+     * Bedroom vs postcode heatmap 
+  * 4.Engine Dashboard(engine.py) 
     * Shows status breakdown for the selected data source 
     * Displays: 
       * Pie chart of status (Completed/Failed/Null) 
