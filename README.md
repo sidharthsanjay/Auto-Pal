@@ -30,13 +30,13 @@ visualization. It integrates with MongoDB and provides tools for:
     * dashboard_collection: For status dashboard summaries 
 
 ## Page Descriptions 
- 1. Validation Tool(Home.py) 
-  *Filters data by: 
-      * AI Type (Potential, Under Value) 
-      * Date range 
-      * Source & Property Type 
-    * Allows manual navigation and validation for each property 
-    * Logs changes to MongoDB and appends to updation_data.csv 
+ * 1.Validation Tool(Home.py) 
+   * Filters data by: 
+     * AI Type (Potential, Under Value) 
+     * Date range 
+     * Source & Property Type 
+   * Allows manual navigation and validation for each property 
+   * Logs changes to MongoDB and appends to updation_data.csv 
   2. Validation Convertible Status 
     * Shows a pie chart of convertible status values that are not yet updated 
     * Pulls live data from MongoDB 
