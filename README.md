@@ -30,7 +30,7 @@ visualization. It integrates with MongoDB and provides tools for:
     * dashboard_collection: For status dashboard summaries 
 
 ## Page Descriptions 
-*1. Validation Tool(Home.py) 
+1. Validation Tool(Home.py) 
  *Filters data by: 
       * AI Type (Potential, Under Value) 
       * Date range 
