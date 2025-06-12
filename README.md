@@ -17,9 +17,9 @@ visualization. It integrates with MongoDB and provides tools for:
 ```
 
 ## How to Run 
-  Prerequisites: 
+ * Prerequisites: 
    * Python 3.8+ 
-  To run the app: 
+ * To run the app: 
    * streamlit run Home.py
     
 ## MongoDB Setup 
