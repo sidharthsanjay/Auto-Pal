@@ -1,4 +1,4 @@
-# Auto Pal Documentation 
+# Auto Pal 
 Auto Pal is a multi-functional Streamlit-based dashboard application built for property data validation and 
 visualization. It integrates with MongoDB and provides tools for: 
 * Manual data validation and logging 
