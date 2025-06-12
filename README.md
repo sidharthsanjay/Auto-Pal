@@ -31,25 +31,25 @@ visualization. It integrates with MongoDB and provides tools for:
 
 ## Page Descriptions 
   1. Validation Tool(Home.py) 
-  Filters data by: 
-      ○ AI Type (Potential, Under Value) 
-      ○ Date range 
-      ○ Source & Property Type 
-    ● Allows manual navigation and validation for each property 
-    ● Logs changes to MongoDB and appends to updation_data.csv 
+    *Filters data by: 
+      * AI Type (Potential, Under Value) 
+      * Date range 
+      * Source & Property Type 
+    * Allows manual navigation and validation for each property 
+    * Logs changes to MongoDB and appends to updation_data.csv 
   2. Validation Convertible Status 
-    ● Shows a pie chart of convertible status values that are not yet updated 
-    ● Pulls live data from MongoDB 
+    * Shows a pie chart of convertible status values that are not yet updated 
+    * Pulls live data from MongoDB 
   3. Validation Dashboard 
-    ● Automatically loads filters passed from the Validation Tool 
-    ● Visualizations: 
-      ○ Property type histogram 
-      ○ Bedroom box plot 
-      ○ Listing trends (line chart) 
-      ○ Bedroom vs postcode heatmap 
+    * Automatically loads filters passed from the Validation Tool 
+    * Visualizations: 
+      * Property type histogram 
+      * Bedroom box plot 
+      * Listing trends (line chart) 
+      * Bedroom vs postcode heatmap 
   4. Engine Dashboard(engine.py) 
-    ● Shows status breakdown for the selected data source 
-    ● Displays: 
-      ○ Pie chart of status (Completed/Failed/Null) 
-      ○ Pie chart of update dates 
-      ○ Filterable table view
+    * Shows status breakdown for the selected data source 
+    * Displays: 
+      * Pie chart of status (Completed/Failed/Null) 
+      * Pie chart of update dates 
+      * Filterable table view
