@@ -18,16 +18,16 @@ visualization. It integrates with MongoDB and provides tools for:
 
 ## How to Run 
   Prerequisites: 
-    ● Python 3.8+ 
+   * Python 3.8+ 
   To run the app: 
-    ● streamlit run Home.py
+   * streamlit run Home.py
     
 ## MongoDB Setup 
-  ● Connection URI is hardcoded in both Home.py and engine.py 
-  ● MongoDB Connection used: 
-    ○ sales_data: Main property data 
-    ○ update_logs: Validation logs 
-    ○ dashboard_collection: For status dashboard summaries 
+  * Connection URI is hardcoded in both Home.py and engine.py 
+  * MongoDB Connection used: 
+    ** sales_data: Main property data 
+    ** update_logs: Validation logs 
+    ** dashboard_collection: For status dashboard summaries 
 
 ## Page Descriptions 
   1. Validation Tool(Home.py) 
