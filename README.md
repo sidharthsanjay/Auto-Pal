@@ -31,7 +31,7 @@ visualization. It integrates with MongoDB and provides tools for:
 
 ## Page Descriptions 
   1. Validation Tool(Home.py) 
-    *Filters data by: 
+*Filters data by: 
       * AI Type (Potential, Under Value) 
       * Date range 
       * Source & Property Type 
