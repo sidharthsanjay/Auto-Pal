@@ -6,28 +6,30 @@ visualization. It integrates with MongoDB and provides tools for:
   ● Market undervalue insights 
   ● Visual dashboards for updates and statuses 
   
-# Project Structure 
+## Project Structure 
+```
   AutoPal/ 
   │ 
   ├── Home.py               - Main app script with routing and multi-page logic       
   ├── engine.py             - Standalone dashboard logic for status-based pie charts     
   ├── logo.png              - Branding logo shown in sidebar
-  └── updation_data.csv     - Log of updates and validations (dynamically generated) 
+  └── updation_data.csv     - Log of updates and validations (dynamically generated)
+```
 
-# How to Run 
+## How to Run 
   Prerequisites: 
     ● Python 3.8+ 
   To run the app: 
     ● streamlit run Home.py
     
-# MongoDB Setup 
+## MongoDB Setup 
   ● Connection URI is hardcoded in both Home.py and engine.py 
   ● MongoDB Connection used: 
     ○ sales_data: Main property data 
     ○ update_logs: Validation logs 
     ○ dashboard_collection: For status dashboard summaries 
 
-# Page Descriptions 
+## Page Descriptions 
   1. Validation Tool(Home.py) 
     ● Filters data by: 
       ○ AI Type (Potential, Under Value) 
